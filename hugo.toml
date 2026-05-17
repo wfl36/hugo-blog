@@ -1,0 +1,41 @@
+baseURL = "https://hugo-blog.pages.dev/"
+title = "My Blog"
+theme = "PaperMod"
+hasCJKLanguage = true
+
+[taxonomies]
+tags = "tags"
+categories = "categories"
+
+[params]
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+
+[params.homeInfoParams]
+Title = "Hi there 👋"
+Content = "Welcome to my blog"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/wfl36"
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 30
