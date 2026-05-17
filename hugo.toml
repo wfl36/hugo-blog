@@ -1,5 +1,5 @@
 baseURL = "https://hugo-blog-4ai.pages.dev/"
-title = "My Blog"
+title = "Leo Blog"
 theme = "PaperMod"
 hasCJKLanguage = true
 
